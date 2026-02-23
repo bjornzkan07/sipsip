@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Sip & Learn",
+    "slug": "sip-learn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#00B4A6"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.siplearn.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#00B4A6"
+      },
+      "package": "com.siplearn.app"
+    },
+    "plugins": [
+      "expo-linear-gradient"
+    ]
+  }
+}
